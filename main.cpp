@@ -98,9 +98,9 @@ void init(void){
 		}
 	}
 	
-//	printf("ï¿½ï¿½ï¿½Ú±ï¿½\n");
+//	printf("³öÇÚ±í\n");
 //	for (int i = 0; i < 20; i++) {
-//		printf("ï¿½ï¿½%dï¿½Î¿ï¿½\n", i+1);
+//		printf("µÚ%d½Ú¿Î\n", i+1);
 //		for (int j = 0; j < 90; j++) {
 //			printf("%d ", out[i][j]);
 //			if((j+1)%10 == 0)
@@ -110,7 +110,7 @@ void init(void){
 //	}
 	
 }
-//Ã»ï¿½Ãµï¿½ï¿½ã·¨ 
+//Ã»ÓÃµÄËã·¨ 
 double rollCall(int r){//rï¿½ï¿½Ê¾Ç°rï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ 
 	//Ç°rï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½,ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½5-8ï¿½ï¿½ï¿½Ðµï¿½1ï¿½ï¿½ 
 	int cnt[90];//90ï¿½ï¿½Ñ§ï¿½ï¿½È±ï¿½Ú¼ï¿½ï¿½ï¿½
@@ -199,7 +199,7 @@ int main()
 			e += k[i];
 			
 		}
-		printf("r=%d  E = %lf ï¿½ï¿½ï¿½ï¿½=%lf\n\n", r, e/testNum, fun(k, testNum));
+		printf("r=%d  E = %lf ·½²î=%lf\n\n", r, e/testNum, fun(k, testNum));
 	}
 	return 0;
 }
